@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #fdfdfd;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,20 +14,70 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.container {
+.containerTop {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  min-width: 100vw;
+  min-width: 90vw;
+  min-height: 90vh;
+  background-color: #213547;
 }
 
 .topRow {
+  margin: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
+.topRow img {
+  width: 32px;
+}
 
+.topText {
+  margin-left: 1rem;
+  text-align: left;
+  width: 50%;
+
+  & h1 {
+    font-size: 5rem;
+  }
+
+  & p {
+margin-bottom: 4rem;
+  }
+
+  & button {
+    border-radius: 4px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: white;
+    color: #213547;
+  }
+}
+
+.containerBtm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  color: #213547;
+  text-align: left;
+  max-width: 1rem;
+}
+
+.icons img {
+  width: 128px;
+}
+
+.icons p {
+  font-size: 0.8rem;
+}
 
 a {
   font-weight: 500;
