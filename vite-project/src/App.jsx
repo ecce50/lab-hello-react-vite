@@ -14,7 +14,7 @@ function App() {
       <div className="containerTop">
         <div className="topRow">
           <img className="ironhackLogo" src={ironhackLogo} alt="logo" />
-          <img src={menutop} alt="logo" />
+          <img id="menuIcon" src={menutop} alt="logo" />
         </div>
         <div className="topText">
           <h1>Say hello to React JS</h1>

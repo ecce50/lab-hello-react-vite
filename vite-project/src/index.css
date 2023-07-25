@@ -17,8 +17,9 @@
 .containerTop {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
   min-width: 90vw;
-  min-height: 90vh;
+  min-height: 70vh;
   background-color: #213547;
 }
 
@@ -30,6 +31,11 @@
 
 .topRow img {
   width: 32px;
+}
+
+#menuIcon {
+  width: 16px;
+  height: 16px;
 }
 
 .topText {
